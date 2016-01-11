@@ -15,7 +15,7 @@ import javax.swing.JComponent;
  *
  */
 /**
-                        Draws a face.
+ * Draws a face.
  */
 public class FaceComponent extends JComponent
 {
