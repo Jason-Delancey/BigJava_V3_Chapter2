@@ -21,9 +21,9 @@ public class GregorianCalendarTester
 		GregorianCalendar cal = new GregorianCalendar();
 		System.out.println("DAY_OF_WEEK: " + cal.get(Calendar.DAY_OF_WEEK));
 		System.out.println("AM_PM: " + cal.get(Calendar.AM_PM));
-		 System.out.println("HOUR: " + cal.get(Calendar.HOUR));
-		 System.out.println();
-		 
+		System.out.println("HOUR: " + cal.get(Calendar.HOUR));
+		System.out.println();
+
 		cal.add(Calendar.DAY_OF_MONTH, 100);
 		System.out.println("YEAR: " + cal.get(Calendar.YEAR));
 		System.out.println("MONTH: " + cal.get(Calendar.MONTH));
